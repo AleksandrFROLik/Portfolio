@@ -7,14 +7,13 @@ export const Work = () => {
 
         <div className={styles.workBlock}>
             <div className={styles.image}>
-                <img src='https://upload.wikimedia.org/wikipedia/commons/7/78/Image.jpg' alt='logo'/>
-
+                <span>Picture</span>
                 <div className={styles.button}>
-                    <button>watch</button>
+                    <span>Click</span>
                 </div>
             </div>
             <div className={styles.description}>
-                <h3>Name project</h3>
+                <h3 >Name project</h3>
                 <textarea placeholder='short description'/>
             </div>
         </div>

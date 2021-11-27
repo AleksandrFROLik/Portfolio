@@ -3,15 +3,47 @@
     border: 1px solid;
 }
 
-.image button {
-    height: 30px;
-    width: 150px;
-    margin-top:  -50px;
+.image{
+    width: 100%;
+    height: 55vh;
+    background-color: #e37d90;
+    position: relative;
+
 }
 .button {
+    border: 1px solid;
+    width: 140px;
+    height: 40px;
+    background-color: #9af3f3;
+    /*margin: 0 auto;*/
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 
+}
+.button span {
+   font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 .description {
+    background-color: #e1dfdf;
+}
+
+.description h3 {
+    width: auto;
     background-color: #a8a7a7;
+    margin: 10px;
+}
+.description textarea {
+    width: 250px;
+    height: 75px;
+    background-color: #a8a7a7 ;
 }

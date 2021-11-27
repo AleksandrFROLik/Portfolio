@@ -1,0 +1,13 @@
+.remoteBlock {
+    height: 40vh;
+    background-color: #9595f1;
+
+}
+
+.skillsContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
