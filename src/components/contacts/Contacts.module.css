@@ -1,0 +1,44 @@
+.contactsBlock {
+    height: 100vh;
+    background-color: #a9a9f5;
+}
+
+.contactsContainer {
+    border: 1px solid;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.supBlock {
+    width: 75%;
+    height: 65%;
+    border: 1px solid;
+    position: relative;
+}
+
+.title {
+    width: auto;
+    background-color: #c9c8c8;
+    border: 1px solid;
+    text-align: center;
+}
+
+.inputField {
+    border: 1px solid;
+    background-color: #c9c8c8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.inputField input {
+    margin: 25px;
+    display: block;
+}
+
+.inputField textarea {
+    margin: 25px;
+}
