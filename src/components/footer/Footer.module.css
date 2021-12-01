@@ -1,0 +1,36 @@
+.footerBlock {
+    height: 40vh;
+    background-color: #95f1c8;
+}
+
+.footerContainer {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: #64a9f5;
+    border: 1px solid;
+}
+.socialBlock {
+    display: flex;
+    width: 700px;
+    height: 100px;
+    border: 1px solid;
+    background-color: #c9c8c8;
+    justify-content: space-between;
+}
+.socialBlock div {
+    height:100px;
+    width: 100px;
+    border: 1px solid;
+    background-color: #6fda6f;
+}
+
+
+.button {
+    border: 1px solid;
+    background-color: #64a9f5;
+
+}
