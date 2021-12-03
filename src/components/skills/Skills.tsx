@@ -12,6 +12,9 @@ export const Skills = () => {
                     <Skill title="HTML" description={"Any text"}/>
                     <Skill title="CSS" description={"Any text"}/>
                     <Skill title="JS" description={"Any text"}/>
+                    <Skill title="HTML" description={"Any text"}/>
+                    <Skill title="CSS" description={"Any text"}/>
+                    <Skill title="JS" description={"Any text"}/>
                 </div>
             </div>
 

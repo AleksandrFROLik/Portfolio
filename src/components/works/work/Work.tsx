@@ -9,11 +9,11 @@ export const Work = () => {
             <div className={styles.image}>
                 <span>Picture</span>
                 <div className={styles.button}>
-                    <span>Click</span>
+                    <a href="/">Click</a>
                 </div>
             </div>
             <div className={styles.description}>
-                <h3 >Name project</h3>
+                <h3>Name project</h3>
                 <textarea placeholder='short description'/>
             </div>
         </div>

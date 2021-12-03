@@ -14,3 +14,10 @@
     height: 60px;
     background-color: #c9c8c8;
 }
+
+@media (width: 360px) {
+    .skillBlock {
+        padding: 10px;
+    }
+
+}
