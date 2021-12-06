@@ -6,7 +6,6 @@
 .skillsContainer {
     align-items: center;
     flex-direction: column;
-    justify-content: flex-start;
     flex-wrap: wrap;
 }
 
@@ -16,11 +15,12 @@
 }
 
 .skills {
-    width: 100%;
+    min-height: 90vh;
     border: 1px solid;
     display: flex;
-    justify-content: space-between;
-
+    justify-content: stretch;
+    flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
 @media (width: 360px) {
