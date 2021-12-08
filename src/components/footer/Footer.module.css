@@ -15,15 +15,17 @@
 }
 .socialBlock {
     display: flex;
-    width: 700px;
-    height: 100px;
+    width: 450px;
+    height: 51px;
     border: 1px solid;
     background-color: #c9c8c8;
     justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
 }
-.socialBlock div {
-    height:100px;
-    width: 100px;
+.socialBlock li {
+    height:50px;
+    width: 50px;
     border: 1px solid;
     background-color: #6fda6f;
 }

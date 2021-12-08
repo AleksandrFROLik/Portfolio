@@ -19,7 +19,14 @@
 .button {
     border: 1px solid;
     background-color: #64a9f5;
+    width: 140px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (width: 360px) {
