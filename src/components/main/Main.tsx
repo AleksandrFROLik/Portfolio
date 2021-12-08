@@ -11,7 +11,7 @@ export const Main = () => {
                 <div className={style.text}>
                     <span>Hi There</span>
                     <h1>I am Frolov Aleksander</h1>
-                    <p>A Frontend developer and Fullstack</p>
+                    <p>A Frontend developer and Fullstack2</p>
                 </div>
                 <div className={style.photo}>
 
