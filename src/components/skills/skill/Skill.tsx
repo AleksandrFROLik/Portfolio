@@ -9,7 +9,7 @@ type SkillType = {
 export const Skill: React.FC<SkillType> = ({title, description}: SkillType) => {
     return (
         <div className={styles.skillBlock}>
-            <div className={styles.icon}></div>
+            <div className={styles.icon}/>
             <h3>{title}</h3>
             <span className={styles.description}>{description}</span>
         </div>

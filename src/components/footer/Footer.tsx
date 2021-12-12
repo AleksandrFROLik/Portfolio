@@ -14,13 +14,7 @@ export const Footer = () => {
                     <li className={styles.thirty}>3</li>
                     <li className={styles.forty}>4</li>
                 </ul>
-                {/*<div className={styles.socialBlock}>*/}
-                {/*    <div className={styles.first}>1</div>*/}
-                {/*    <div  className={styles.second}>2</div>*/}
-                {/*    <div  className={styles.thirty}>3</div>*/}
-                {/*    <div  className={styles.forty}>4</div>*/}
-                {/*</div>*/}
-                <div className={styles.button}>2021 All rights reserved</div>
+                <div className={styles.reserved}>2021 All rights reserved</div>
             </div>
 
         </div>
