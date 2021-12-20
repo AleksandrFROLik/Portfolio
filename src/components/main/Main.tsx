@@ -1,20 +1,17 @@
 import React from "react";
-import style from './Main.module.css'
-import stylesContainer from '../stylesComponent/styles/stylesContainer.module.css'
-
+import styles from './Main.module.css'
 
 
 export const Main = () => {
-    return(
-        <div className={style.main}>
-            <div className={stylesContainer.container}>
-                <div className={style.text}>
+    return (
+        <div className={styles.main}>
+            <div className={styles.mainContainer}>
+                <div className={styles.textBlock}>
                     <span>Hi There</span>
                     <h1>I am Frolov Aleksander</h1>
                     <p>A Frontend developer and Fullstack2</p>
                 </div>
-                <div className={style.photo}>
-
+                <div className={styles.photoBlock}>
                 </div>
             </div>
 

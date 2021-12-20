@@ -5,12 +5,18 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    text-align: center;
-
+    box-sizing: border-box;
 }
 
 .icon  {
     width: 60px;
     height: 60px;
     background-color: #c9c8c8;
+}
+
+@media (max-width: 360px) {
+    .skillBlock {
+        padding: 10px;
+    }
+
 }

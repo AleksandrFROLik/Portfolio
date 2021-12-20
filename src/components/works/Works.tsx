@@ -6,10 +6,10 @@ import {Work} from "./work/Work";
 
 export const Works = () => {
     return(
-        <div className={styles.skillsBlock}>
-            <div className={`${stylesContainer.container} ${styles.skillsContainer}`}>
+        <div className={styles.worksBlock}>
+            <div className={`${stylesContainer.container} ${styles.worksContainer}`}>
                 <h2 className={styles.title}>works</h2>
-                <div className={styles.skills}>
+                <div className={styles.works}>
                     <Work/>
                     <Work/>
                     <Work/>
